@@ -1,0 +1,8 @@
+Urutan penggunaan Git : 
+
+1. git init -> inisiasi repository baru
+1.1. khusus buat pertama kali -> laksanakan git config global email dan global username, jika diminta password berikan personal access token
+2. git remote add origin <link repository> -> menghubungkan repository cloud ke local
+3. git add . -> masukkan seluruh kode ke index yang mau di push
+4. git commit -m "message" -> masukkan pesan yang mau dibawakan ke repository
+5. git push origin master/nama branch mu -> push kode ke repository cloud 
